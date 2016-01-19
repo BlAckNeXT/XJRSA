@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24827411C462CB600E5B9D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C24827401C462CB600E5B9D2 /* main.m */; };
+		C24827441C462CB600E5B9D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24827431C462CB600E5B9D2 /* AppDelegate.m */; };
+		C24827471C462CB600E5B9D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24827461C462CB600E5B9D2 /* ViewController.m */; };
+		C248274A1C462CB600E5B9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24827481C462CB600E5B9D2 /* Main.storyboard */; };
+		C248274C1C462CB600E5B9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C248274B1C462CB600E5B9D2 /* Assets.xcassets */; };
+		C248274F1C462CB600E5B9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C248274D1C462CB600E5B9D2 /* LaunchScreen.storyboard */; };
+		C248275A1C462CB600E5B9D2 /* XJRSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24827591C462CB600E5B9D2 /* XJRSATests.m */; };
+		C24827651C462CB600E5B9D2 /* XJRSAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24827641C462CB600E5B9D2 /* XJRSAUITests.m */; };
+		C24827DA1C462D5000E5B9D2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C248278A1C462D5000E5B9D2 /* LICENSE */; };
+		C24827DB1C462D5000E5B9D2 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C24827D81C462D5000E5B9D2 /* libcrypto.a */; };
+		C24827DC1C462D5000E5B9D2 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C24827D91C462D5000E5B9D2 /* libssl.a */; };
+		C25A267D1C4DCFD100B692AA /* xj_base_64.c in Sources */ = {isa = PBXBuildFile; fileRef = C25A267B1C4DCFD100B692AA /* xj_base_64.c */; };
+		C25A26801C4DD04E00B692AA /* xj_rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = C25A267E1C4DD04E00B692AA /* xj_rsa.c */; };
+		C25A26831C4DD0EE00B692AA /* XJRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A26821C4DD0EE00B692AA /* XJRSA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24827561C462CB600E5B9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24827341C462CB600E5B9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248273B1C462CB600E5B9D2;
+			remoteInfo = XJRSA;
+		};
+		C24827611C462CB600E5B9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24827341C462CB600E5B9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248273B1C462CB600E5B9D2;
+			remoteInfo = XJRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C248273C1C462CB600E5B9D2 /* XJRSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJRSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24827401C462CB600E5B9D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C24827421C462CB600E5B9D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C24827431C462CB600E5B9D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C24827451C462CB600E5B9D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C24827461C462CB600E5B9D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C24827491C462CB600E5B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C248274B1C462CB600E5B9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C248274E1C462CB600E5B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24827501C462CB600E5B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24827551C462CB600E5B9D2 /* XJRSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJRSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24827591C462CB600E5B9D2 /* XJRSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJRSATests.m; sourceTree = "<group>"; };
+		C248275B1C462CB600E5B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24827601C462CB600E5B9D2 /* XJRSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJRSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24827641C462CB600E5B9D2 /* XJRSAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJRSAUITests.m; sourceTree = "<group>"; };
+		C24827661C462CB600E5B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C248278A1C462D5000E5B9D2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C248278C1C462D5000E5B9D2 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		C248278D1C462D5000E5B9D2 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		C248278E1C462D5000E5B9D2 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		C248278F1C462D5000E5B9D2 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		C24827901C462D5000E5B9D2 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		C24827911C462D5000E5B9D2 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		C24827921C462D5000E5B9D2 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		C24827931C462D5000E5B9D2 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		C24827941C462D5000E5B9D2 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		C24827951C462D5000E5B9D2 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		C24827961C462D5000E5B9D2 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		C24827971C462D5000E5B9D2 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		C24827981C462D5000E5B9D2 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		C24827991C462D5000E5B9D2 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		C248279A1C462D5000E5B9D2 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		C248279B1C462D5000E5B9D2 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		C248279C1C462D5000E5B9D2 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		C248279D1C462D5000E5B9D2 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		C248279E1C462D5000E5B9D2 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		C248279F1C462D5000E5B9D2 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		C24827A01C462D5000E5B9D2 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		C24827A11C462D5000E5B9D2 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		C24827A21C462D5000E5B9D2 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		C24827A31C462D5000E5B9D2 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		C24827A41C462D5000E5B9D2 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		C24827A51C462D5000E5B9D2 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		C24827A61C462D5000E5B9D2 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		C24827A71C462D5000E5B9D2 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		C24827A81C462D5000E5B9D2 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		C24827A91C462D5000E5B9D2 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		C24827AA1C462D5000E5B9D2 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		C24827AB1C462D5000E5B9D2 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		C24827AC1C462D5000E5B9D2 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		C24827AD1C462D5000E5B9D2 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		C24827AE1C462D5000E5B9D2 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		C24827AF1C462D5000E5B9D2 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		C24827B01C462D5000E5B9D2 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		C24827B11C462D5000E5B9D2 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		C24827B21C462D5000E5B9D2 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		C24827B31C462D5000E5B9D2 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		C24827B41C462D5000E5B9D2 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		C24827B51C462D5000E5B9D2 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		C24827B61C462D5000E5B9D2 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		C24827B71C462D5000E5B9D2 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		C24827B81C462D5000E5B9D2 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		C24827B91C462D5000E5B9D2 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		C24827BA1C462D5000E5B9D2 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		C24827BB1C462D5000E5B9D2 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		C24827BC1C462D5000E5B9D2 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		C24827BD1C462D5000E5B9D2 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		C24827BE1C462D5000E5B9D2 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		C24827BF1C462D5000E5B9D2 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		C24827C01C462D5000E5B9D2 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		C24827C11C462D5000E5B9D2 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		C24827C21C462D5000E5B9D2 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		C24827C31C462D5000E5B9D2 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		C24827C41C462D5000E5B9D2 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		C24827C51C462D5000E5B9D2 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		C24827C61C462D5000E5B9D2 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		C24827C71C462D5000E5B9D2 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		C24827C81C462D5000E5B9D2 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		C24827C91C462D5000E5B9D2 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		C24827CA1C462D5000E5B9D2 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		C24827CB1C462D5000E5B9D2 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		C24827CC1C462D5000E5B9D2 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		C24827CD1C462D5000E5B9D2 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		C24827CE1C462D5000E5B9D2 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		C24827CF1C462D5000E5B9D2 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		C24827D01C462D5000E5B9D2 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		C24827D11C462D5000E5B9D2 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		C24827D21C462D5000E5B9D2 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		C24827D31C462D5000E5B9D2 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		C24827D41C462D5000E5B9D2 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		C24827D51C462D5000E5B9D2 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		C24827D61C462D5000E5B9D2 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		C24827D81C462D5000E5B9D2 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		C24827D91C462D5000E5B9D2 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		C25A267B1C4DCFD100B692AA /* xj_base_64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xj_base_64.c; sourceTree = "<group>"; };
+		C25A267C1C4DCFD100B692AA /* xj_base_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xj_base_64.h; sourceTree = "<group>"; };
+		C25A267E1C4DD04E00B692AA /* xj_rsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xj_rsa.c; sourceTree = "<group>"; };
+		C25A267F1C4DD04E00B692AA /* xj_rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xj_rsa.h; sourceTree = "<group>"; };
+		C25A26811C4DD0EE00B692AA /* XJRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJRSA.h; sourceTree = "<group>"; };
+		C25A26821C4DD0EE00B692AA /* XJRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJRSA.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24827391C462CB600E5B9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24827DC1C462D5000E5B9D2 /* libssl.a in Frameworks */,
+				C24827DB1C462D5000E5B9D2 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24827521C462CB600E5B9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248275D1C462CB600E5B9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24827331C462CB600E5B9D2 = {
+			isa = PBXGroup;
+			children = (
+				C24827881C462D5000E5B9D2 /* OpenSSL */,
+				C248273E1C462CB600E5B9D2 /* XJRSA */,
+				C24827581C462CB600E5B9D2 /* XJRSATests */,
+				C24827631C462CB600E5B9D2 /* XJRSAUITests */,
+				C248273D1C462CB600E5B9D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C248273D1C462CB600E5B9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C248273C1C462CB600E5B9D2 /* XJRSA.app */,
+				C24827551C462CB600E5B9D2 /* XJRSATests.xctest */,
+				C24827601C462CB600E5B9D2 /* XJRSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C248273E1C462CB600E5B9D2 /* XJRSA */ = {
+			isa = PBXGroup;
+			children = (
+				C24827421C462CB600E5B9D2 /* AppDelegate.h */,
+				C24827431C462CB600E5B9D2 /* AppDelegate.m */,
+				C24827451C462CB600E5B9D2 /* ViewController.h */,
+				C24827461C462CB600E5B9D2 /* ViewController.m */,
+				C24827721C462CC800E5B9D2 /* RSA */,
+				C24827481C462CB600E5B9D2 /* Main.storyboard */,
+				C248274B1C462CB600E5B9D2 /* Assets.xcassets */,
+				C248274D1C462CB600E5B9D2 /* LaunchScreen.storyboard */,
+				C24827501C462CB600E5B9D2 /* Info.plist */,
+				C248273F1C462CB600E5B9D2 /* Supporting Files */,
+			);
+			path = XJRSA;
+			sourceTree = "<group>";
+		};
+		C248273F1C462CB600E5B9D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24827401C462CB600E5B9D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C24827581C462CB600E5B9D2 /* XJRSATests */ = {
+			isa = PBXGroup;
+			children = (
+				C24827591C462CB600E5B9D2 /* XJRSATests.m */,
+				C248275B1C462CB600E5B9D2 /* Info.plist */,
+			);
+			path = XJRSATests;
+			sourceTree = "<group>";
+		};
+		C24827631C462CB600E5B9D2 /* XJRSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C24827641C462CB600E5B9D2 /* XJRSAUITests.m */,
+				C24827661C462CB600E5B9D2 /* Info.plist */,
+			);
+			path = XJRSAUITests;
+			sourceTree = "<group>";
+		};
+		C24827721C462CC800E5B9D2 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				C25A267B1C4DCFD100B692AA /* xj_base_64.c */,
+				C25A267C1C4DCFD100B692AA /* xj_base_64.h */,
+				C25A267E1C4DD04E00B692AA /* xj_rsa.c */,
+				C25A267F1C4DD04E00B692AA /* xj_rsa.h */,
+				C25A26811C4DD0EE00B692AA /* XJRSA.h */,
+				C25A26821C4DD0EE00B692AA /* XJRSA.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		C24827881C462D5000E5B9D2 /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				C24827891C462D5000E5B9D2 /* include */,
+				C24827D71C462D5000E5B9D2 /* lib */,
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
+		C24827891C462D5000E5B9D2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C248278A1C462D5000E5B9D2 /* LICENSE */,
+				C248278B1C462D5000E5B9D2 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C248278B1C462D5000E5B9D2 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				C248278C1C462D5000E5B9D2 /* aes.h */,
+				C248278D1C462D5000E5B9D2 /* asn1.h */,
+				C248278E1C462D5000E5B9D2 /* asn1_mac.h */,
+				C248278F1C462D5000E5B9D2 /* asn1t.h */,
+				C24827901C462D5000E5B9D2 /* bio.h */,
+				C24827911C462D5000E5B9D2 /* blowfish.h */,
+				C24827921C462D5000E5B9D2 /* bn.h */,
+				C24827931C462D5000E5B9D2 /* buffer.h */,
+				C24827941C462D5000E5B9D2 /* camellia.h */,
+				C24827951C462D5000E5B9D2 /* cast.h */,
+				C24827961C462D5000E5B9D2 /* cmac.h */,
+				C24827971C462D5000E5B9D2 /* cms.h */,
+				C24827981C462D5000E5B9D2 /* comp.h */,
+				C24827991C462D5000E5B9D2 /* conf.h */,
+				C248279A1C462D5000E5B9D2 /* conf_api.h */,
+				C248279B1C462D5000E5B9D2 /* crypto.h */,
+				C248279C1C462D5000E5B9D2 /* des.h */,
+				C248279D1C462D5000E5B9D2 /* des_old.h */,
+				C248279E1C462D5000E5B9D2 /* dh.h */,
+				C248279F1C462D5000E5B9D2 /* dsa.h */,
+				C24827A01C462D5000E5B9D2 /* dso.h */,
+				C24827A11C462D5000E5B9D2 /* dtls1.h */,
+				C24827A21C462D5000E5B9D2 /* e_os2.h */,
+				C24827A31C462D5000E5B9D2 /* ebcdic.h */,
+				C24827A41C462D5000E5B9D2 /* ec.h */,
+				C24827A51C462D5000E5B9D2 /* ecdh.h */,
+				C24827A61C462D5000E5B9D2 /* ecdsa.h */,
+				C24827A71C462D5000E5B9D2 /* engine.h */,
+				C24827A81C462D5000E5B9D2 /* err.h */,
+				C24827A91C462D5000E5B9D2 /* evp.h */,
+				C24827AA1C462D5000E5B9D2 /* hmac.h */,
+				C24827AB1C462D5000E5B9D2 /* idea.h */,
+				C24827AC1C462D5000E5B9D2 /* krb5_asn.h */,
+				C24827AD1C462D5000E5B9D2 /* kssl.h */,
+				C24827AE1C462D5000E5B9D2 /* lhash.h */,
+				C24827AF1C462D5000E5B9D2 /* md4.h */,
+				C24827B01C462D5000E5B9D2 /* md5.h */,
+				C24827B11C462D5000E5B9D2 /* mdc2.h */,
+				C24827B21C462D5000E5B9D2 /* modes.h */,
+				C24827B31C462D5000E5B9D2 /* obj_mac.h */,
+				C24827B41C462D5000E5B9D2 /* objects.h */,
+				C24827B51C462D5000E5B9D2 /* ocsp.h */,
+				C24827B61C462D5000E5B9D2 /* opensslconf.h */,
+				C24827B71C462D5000E5B9D2 /* opensslv.h */,
+				C24827B81C462D5000E5B9D2 /* ossl_typ.h */,
+				C24827B91C462D5000E5B9D2 /* pem.h */,
+				C24827BA1C462D5000E5B9D2 /* pem2.h */,
+				C24827BB1C462D5000E5B9D2 /* pkcs12.h */,
+				C24827BC1C462D5000E5B9D2 /* pkcs7.h */,
+				C24827BD1C462D5000E5B9D2 /* pqueue.h */,
+				C24827BE1C462D5000E5B9D2 /* rand.h */,
+				C24827BF1C462D5000E5B9D2 /* rc2.h */,
+				C24827C01C462D5000E5B9D2 /* rc4.h */,
+				C24827C11C462D5000E5B9D2 /* ripemd.h */,
+				C24827C21C462D5000E5B9D2 /* rsa.h */,
+				C24827C31C462D5000E5B9D2 /* safestack.h */,
+				C24827C41C462D5000E5B9D2 /* seed.h */,
+				C24827C51C462D5000E5B9D2 /* sha.h */,
+				C24827C61C462D5000E5B9D2 /* srp.h */,
+				C24827C71C462D5000E5B9D2 /* srtp.h */,
+				C24827C81C462D5000E5B9D2 /* ssl.h */,
+				C24827C91C462D5000E5B9D2 /* ssl2.h */,
+				C24827CA1C462D5000E5B9D2 /* ssl23.h */,
+				C24827CB1C462D5000E5B9D2 /* ssl3.h */,
+				C24827CC1C462D5000E5B9D2 /* stack.h */,
+				C24827CD1C462D5000E5B9D2 /* symhacks.h */,
+				C24827CE1C462D5000E5B9D2 /* tls1.h */,
+				C24827CF1C462D5000E5B9D2 /* ts.h */,
+				C24827D01C462D5000E5B9D2 /* txt_db.h */,
+				C24827D11C462D5000E5B9D2 /* ui.h */,
+				C24827D21C462D5000E5B9D2 /* ui_compat.h */,
+				C24827D31C462D5000E5B9D2 /* whrlpool.h */,
+				C24827D41C462D5000E5B9D2 /* x509.h */,
+				C24827D51C462D5000E5B9D2 /* x509_vfy.h */,
+				C24827D61C462D5000E5B9D2 /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		C24827D71C462D5000E5B9D2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C24827D81C462D5000E5B9D2 /* libcrypto.a */,
+				C24827D91C462D5000E5B9D2 /* libssl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C248273B1C462CB600E5B9D2 /* XJRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24827691C462CB600E5B9D2 /* Build configuration list for PBXNativeTarget "XJRSA" */;
+			buildPhases = (
+				C24827381C462CB600E5B9D2 /* Sources */,
+				C24827391C462CB600E5B9D2 /* Frameworks */,
+				C248273A1C462CB600E5B9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJRSA;
+			productName = XJRSA;
+			productReference = C248273C1C462CB600E5B9D2 /* XJRSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C24827541C462CB600E5B9D2 /* XJRSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C248276C1C462CB600E5B9D2 /* Build configuration list for PBXNativeTarget "XJRSATests" */;
+			buildPhases = (
+				C24827511C462CB600E5B9D2 /* Sources */,
+				C24827521C462CB600E5B9D2 /* Frameworks */,
+				C24827531C462CB600E5B9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24827571C462CB600E5B9D2 /* PBXTargetDependency */,
+			);
+			name = XJRSATests;
+			productName = XJRSATests;
+			productReference = C24827551C462CB600E5B9D2 /* XJRSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C248275F1C462CB600E5B9D2 /* XJRSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C248276F1C462CB600E5B9D2 /* Build configuration list for PBXNativeTarget "XJRSAUITests" */;
+			buildPhases = (
+				C248275C1C462CB600E5B9D2 /* Sources */,
+				C248275D1C462CB600E5B9D2 /* Frameworks */,
+				C248275E1C462CB600E5B9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24827621C462CB600E5B9D2 /* PBXTargetDependency */,
+			);
+			name = XJRSAUITests;
+			productName = XJRSAUITests;
+			productReference = C24827601C462CB600E5B9D2 /* XJRSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24827341C462CB600E5B9D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Sysw1n;
+				TargetAttributes = {
+					C248273B1C462CB600E5B9D2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 65V2G2QV32;
+					};
+					C24827541C462CB600E5B9D2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 65V2G2QV32;
+						TestTargetID = C248273B1C462CB600E5B9D2;
+					};
+					C248275F1C462CB600E5B9D2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 65V2G2QV32;
+						TestTargetID = C248273B1C462CB600E5B9D2;
+					};
+				};
+			};
+			buildConfigurationList = C24827371C462CB600E5B9D2 /* Build configuration list for PBXProject "XJRSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24827331C462CB600E5B9D2;
+			productRefGroup = C248273D1C462CB600E5B9D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C248273B1C462CB600E5B9D2 /* XJRSA */,
+				C24827541C462CB600E5B9D2 /* XJRSATests */,
+				C248275F1C462CB600E5B9D2 /* XJRSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C248273A1C462CB600E5B9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248274F1C462CB600E5B9D2 /* LaunchScreen.storyboard in Resources */,
+				C248274C1C462CB600E5B9D2 /* Assets.xcassets in Resources */,
+				C24827DA1C462D5000E5B9D2 /* LICENSE in Resources */,
+				C248274A1C462CB600E5B9D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24827531C462CB600E5B9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248275E1C462CB600E5B9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24827381C462CB600E5B9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25A26831C4DD0EE00B692AA /* XJRSA.m in Sources */,
+				C25A26801C4DD04E00B692AA /* xj_rsa.c in Sources */,
+				C24827471C462CB600E5B9D2 /* ViewController.m in Sources */,
+				C24827441C462CB600E5B9D2 /* AppDelegate.m in Sources */,
+				C25A267D1C4DCFD100B692AA /* xj_base_64.c in Sources */,
+				C24827411C462CB600E5B9D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24827511C462CB600E5B9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248275A1C462CB600E5B9D2 /* XJRSATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248275C1C462CB600E5B9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24827651C462CB600E5B9D2 /* XJRSAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24827571C462CB600E5B9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248273B1C462CB600E5B9D2 /* XJRSA */;
+			targetProxy = C24827561C462CB600E5B9D2 /* PBXContainerItemProxy */;
+		};
+		C24827621C462CB600E5B9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248273B1C462CB600E5B9D2 /* XJRSA */;
+			targetProxy = C24827611C462CB600E5B9D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C24827481C462CB600E5B9D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24827491C462CB600E5B9D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C248274D1C462CB600E5B9D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C248274E1C462CB600E5B9D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24827671C462CB600E5B9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C24827681C462CB600E5B9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C248276A1C462CB600E5B9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/OpenSSL/include\"";
+				INFOPLIST_FILE = XJRSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenSSL/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.XJRSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C248276B1C462CB600E5B9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/OpenSSL/include\"";
+				INFOPLIST_FILE = XJRSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenSSL/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.XJRSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C248276D1C462CB600E5B9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XJRSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.XJRSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJRSA.app/XJRSA";
+			};
+			name = Debug;
+		};
+		C248276E1C462CB600E5B9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XJRSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.XJRSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJRSA.app/XJRSA";
+			};
+			name = Release;
+		};
+		C24827701C462CB600E5B9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XJRSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.XJRSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJRSA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C24827711C462CB600E5B9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XJRSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.XJRSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJRSA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24827371C462CB600E5B9D2 /* Build configuration list for PBXProject "XJRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24827671C462CB600E5B9D2 /* Debug */,
+				C24827681C462CB600E5B9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24827691C462CB600E5B9D2 /* Build configuration list for PBXNativeTarget "XJRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248276A1C462CB600E5B9D2 /* Debug */,
+				C248276B1C462CB600E5B9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C248276C1C462CB600E5B9D2 /* Build configuration list for PBXNativeTarget "XJRSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248276D1C462CB600E5B9D2 /* Debug */,
+				C248276E1C462CB600E5B9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C248276F1C462CB600E5B9D2 /* Build configuration list for PBXNativeTarget "XJRSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24827701C462CB600E5B9D2 /* Debug */,
+				C24827711C462CB600E5B9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24827341C462CB600E5B9D2 /* Project object */;
+}
